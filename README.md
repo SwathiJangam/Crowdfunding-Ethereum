@@ -24,19 +24,25 @@ A decentralized crowdfunding application built using Ethereum blockchain, Solidi
 git clone https://github.com/YOUR_USERNAME/crowdfunding-ethereum.git
 cd crowdfunding-ethereum
 npm install
+```
 
 
 ## 🧪 Testing and Deployment
 
+```bash
 truffle compile
 truffle migrate --network development
+```
 
 ## 💻 Run Frontend
 
+```bash
 cd client
 npm install
 npm start
+```
 
-🔒 Smart Contracts
-Crowdfunding.sol: Main contract with campaign creation, contribution logic, withdrawal and refund.
+## 🔒 Smart Contracts
+**Crowdfunding.sol**: Main contract with campaign creation, contribution logic, withdrawal and refund.
+
 
